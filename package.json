@@ -1,17 +1,23 @@
 {
-  "name": "node.js_nti1",
+  "devDependencies": {
+    "@types/node": "^24.0.8",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "name": "mohamed-saad_7",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "dependencies": {
+    "undici-types": "^7.8.0"
+  },
+"scripts": {
+  "watch": "nodemon --watch './' --ext ts --exec 'ts-node' app.ts"
+
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
-  "dependencies": {
-    "@types/node": "^24.0.7",
-    "tsx": "^4.20.3"
-  }
+  "type": "commonjs"
 }
